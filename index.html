@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Мій Магазин</div>
+        <nav>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#products">Товари</a></li>
+                <li><a href="#cart">Кошик</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products" class="products">
+        <h1>Товари</h1>
+        <div class="product" data-id="1" data-name="Товар 1" data-price="100">
+            <h2>Товар 1</h2>
+            <p>Ціна: 100 грн</p>
+            <button class="add-to-cart">Додати до кошика</button>
+        </div>
+        <div class="product" data-id="2" data-name="Товар 2" data-price="200">
+            <h2>Товар 2</h2>
+            <p>Ціна: 200 грн</p>
+            <button class="add-to-cart">Додати до кошика</button>
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h1>Кошик</h1>
+        <ul class="cart-items"></ul>
+        <p>Загальна сума: <span class="total-price">0</span> грн</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
