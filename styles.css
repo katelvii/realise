@@ -43,7 +43,16 @@ nav ul li a:hover {
     color: #ffd740;
 }
 
-/* Секція товарів */
+.main {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    background: #800080 ;
+    color: white;
+  
+}
+
 .products, .cart {
     padding: 30px;
     margin: 20px auto;
